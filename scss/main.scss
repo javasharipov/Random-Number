@@ -1,0 +1,47 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f3f5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.lottery-ticket {
+	width: 320px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+
+	&__title {
+		font-size: 24px;
+		color: #333;
+		margin-bottom: 10px;
+	}
+
+	&__number {
+		font-size: 32px;
+		color: #4a90e2;
+		font-weight: bold;
+		margin: 20px 0;
+	}
+
+	.btn {
+		width: 100%;
+		padding: 10px 0;
+		font-size: 16px;
+		color: #fff;
+		background-color: #ff5a5f;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+
+		&:hover {
+			background-color: #e14b53;
+		}
+	}
+}
